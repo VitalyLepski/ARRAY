@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] array = new int[]{54, 12, 8, 32, 9, 1, 56, 32, 8, 53, 0, 14, 43, 89, 36, 44, 73, 67, 18};
+        int[] array = new int[]{16, 12, 8, 64, 9, 1, 14, 32, 8, 53, 0, 14, 43, 99, 36, 88, 54, 67, 14};
 
         LepskVA mas = new LepskVA(25);
         Stack stack = new Stack(25);
